@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['index.py'],
+    ['src\\main.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='index',
+    name='OrganizadorArchivos',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['assets\\icon.ico'],
 )

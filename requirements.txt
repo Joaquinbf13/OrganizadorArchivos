@@ -1,0 +1,2 @@
+#Crear ejecutable para organizador de archivos
+##python -m PyInstaller --onefile --windowed --icon=assets/icon.ico --name OrganizadorArchivos src/main.py
